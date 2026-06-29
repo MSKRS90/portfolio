@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mehmet Sadik Kiris | Mechanical Maintenance Expert</title>
-  <meta name="description" content="Mechanical maintenance management, reliability engineering, predictive maintenance, TPM, WCM. 9+ years industrial experience." />
-  <meta name="keywords" content="mechanical maintenance engineer, predictive maintenance, MTBF, MTTR, TPM, WCM, RCM, RCA, CMMS, reliability engineering, zero breakdown, 5S, Kaizen, EHS, Power BI" />
+  <title>Mehmet Sadik Kiris | Mekanik Bakim Muhendisi</title>
+  <meta name="description" content="Mekanik bakim yonetimi, guvenilirlik muhendisligi, kestirimci bakim, TPM, WCM ve endustriyel bakim optimizasyonu uzerine teknik makaleler. 9+ yil deneyim." />
+  <meta name="keywords" content="mekanik bakim muhendisi, kestirimci bakim, predictive maintenance, MTBF, MTTR, TPM, WCM, RCM, RCA, CMMS, vibrasyon analizi, bakim yonetimi, guvenilirlik muhendisligi, sifir ariza, Zero BD, 5S, Kaizen, EHS, Power BI" />
   <meta name="author" content="Mehmet Sadik Kiris" />
 
   <script type="application/ld+json">
@@ -13,12 +13,12 @@
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Mehmet Sadik Kiris",
-    "jobTitle": "Mechanical Maintenance and Auxiliary Facilities Manager",
+    "jobTitle": "Mekanik Bakim Muhendisi",
     "email": "mehmet.s.kiris@gmail.com",
     "telephone": "+90 506 791 54 25",
     "address": { "@type": "PostalAddress", "addressLocality": "Tarsus", "addressRegion": "Mersin", "addressCountry": "TR" },
-    "worksFor": { "@type": "Organization", "name": "IZOCAM Glass Wool Factory" },
-    "knowsAbout": ["Mechanical Maintenance","Predictive Maintenance","TPM","WCM","RCA","MTBF","MTTR","Zero BD","5S","Kaizen","EHS","Power BI","Reliability Engineering"]
+    "worksFor": { "@type": "Organization", "name": "IZOCAM Cam Yunu Fabrikasi" },
+    "knowsAbout": ["Mekanik Bakim","Kestirimci Bakim","TPM","WCM","RCA","MTBF","MTTR","Zero BD","5S","Kaizen","EHS","Power BI","Reliability Engineering","Yedek Parca Optimizasyonu","Bakim Yonetimi"]
   }
   </script>
 
@@ -28,7 +28,6 @@
   <style>
     :root {
       --bg:        #f7f6f2;
-      --bg2:       #ffffff;
       --surface:   #ffffff;
       --border:    #e2ddd6;
       --border2:   #d0cac0;
@@ -60,38 +59,22 @@
     .nav-logo span { color: var(--gold); }
     .nav-right { display: flex; align-items: center; gap: 2.5rem; }
     .nav-links { display: flex; gap: 2rem; }
-    .nav-links a {
-      color: var(--muted); text-decoration: none; font-size: 0.85rem; font-weight: 500;
-      transition: color 0.2s; position: relative; padding-bottom: 2px;
-    }
+    .nav-links a { color: var(--muted); text-decoration: none; font-size: 0.85rem; font-weight: 500; transition: color 0.2s; position: relative; padding-bottom: 2px; }
     .nav-links a::after { content:''; position:absolute; bottom:0; left:0; width:0; height:2px; background: var(--gold); transition: width 0.2s; }
     .nav-links a:hover { color: var(--navy); }
     .nav-links a:hover::after { width: 100%; }
-
     .lang-toggle { display: flex; background: var(--border); border-radius: 20px; padding: 3px; gap: 2px; }
-    .lang-btn {
-      padding: 0.25rem 0.7rem; border-radius: 16px; border: none;
-      font-size: 0.75rem; font-weight: 700; cursor: pointer;
-      background: transparent; color: var(--muted); transition: all 0.2s; letter-spacing: 0.05em;
-    }
+    .lang-btn { padding: 0.25rem 0.7rem; border-radius: 16px; border: none; font-size: 0.75rem; font-weight: 700; cursor: pointer; background: transparent; color: var(--muted); transition: all 0.2s; }
     .lang-btn.active { background: var(--navy); color: #fff; }
 
     /* HERO */
     .hero-wrapper { background: var(--navy); position: relative; overflow: hidden; }
-    .hero-wrapper::before {
-      content:''; position:absolute; inset:0;
-      background: radial-gradient(ellipse at 70% 50%, rgba(200,151,42,0.12) 0%, transparent 60%);
-      pointer-events: none;
-    }
-    .hero {
-      max-width: 960px; margin: 0 auto;
-      padding: 5.5rem 3rem 5rem;
-      display: grid; grid-template-columns: 1fr 300px; gap: 4rem; align-items: center;
-    }
-    .hero-eyebrow { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.22em; color: var(--gold); text-transform: uppercase; margin-bottom: 1.2rem; }
-    .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(2.2rem, 4.5vw, 3.4rem); font-weight: 800; line-height: 1.1; color: #ffffff; margin-bottom: 0.4rem; }
-    .hero h1 .name-sub { display: block; font-size: 0.6em; font-weight: 700; color: var(--gold2); font-family: 'Inter', sans-serif; letter-spacing: 0.03em; margin-top: 0.5rem; }
-    .hero-desc { font-size: 0.95rem; color: rgba(255,255,255,0.65); max-width: 480px; margin: 1.4rem 0 2rem; line-height: 1.75; }
+    .hero-wrapper::before { content:''; position:absolute; inset:0; background: radial-gradient(ellipse at 70% 50%, rgba(200,151,42,0.12) 0%, transparent 60%); pointer-events: none; }
+    .hero { max-width: 980px; margin: 0 auto; padding: 5rem 3rem 4.5rem; display: grid; grid-template-columns: 1fr auto; gap: 4rem; align-items: center; }
+    .hero-eyebrow { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.22em; color: var(--gold); text-transform: uppercase; margin-bottom: 0.8rem; }
+    .hero-name { font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; color: #fff; letter-spacing: 0.02em; line-height: 1.1; margin-bottom: 0.4rem; }
+    .hero-title { font-size: 0.95rem; color: var(--gold2); font-weight: 600; letter-spacing: 0.04em; margin-bottom: 1.4rem; }
+    .hero-desc { font-size: 0.93rem; color: rgba(255,255,255,0.62); max-width: 480px; margin-bottom: 1.8rem; line-height: 1.75; }
     .hero-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 2rem; }
     .hero-tag { font-size: 0.7rem; font-weight: 600; padding: 0.25rem 0.65rem; border: 1px solid rgba(255,255,255,0.15); border-radius: 20px; color: rgba(255,255,255,0.55); }
     .hero-links { display: flex; gap: 0.8rem; flex-wrap: wrap; }
@@ -100,46 +83,84 @@
     .btn-gold:hover { background: var(--gold2); transform: translateY(-1px); box-shadow: 0 4px 16px rgba(200,151,42,0.4); }
     .btn-ghost { background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2); color: rgba(255,255,255,0.7); }
     .btn-ghost:hover { background: rgba(255,255,255,0.15); color: #fff; }
+    .btn-navy { background: var(--navy); color: #fff; border: 1px solid rgba(255,255,255,0.2); }
+    .btn-navy:hover { background: var(--navy2); }
 
-    .hero-stats-col { display: flex; flex-direction: column; gap: 1rem; }
-    .stat-card { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius); padding: 1.4rem 1.6rem; position: relative; overflow: hidden; }
-    .stat-card::before { content:''; position:absolute; left:0; top:0; bottom:0; width:3px; background: var(--gold); }
-    .stat-val { font-family: 'Playfair Display', serif; font-size: 2.2rem; font-weight: 800; color: var(--gold2); line-height: 1; }
-    .stat-lbl { font-size: 0.75rem; color: rgba(255,255,255,0.5); margin-top: 0.3rem; line-height: 1.4; }
+    /* FOTO */
+    .hero-photo-col { display: flex; align-items: center; justify-content: center; }
+    .hero-photo-wrap {
+      width: 200px; height: 200px;
+      border-radius: 50%;
+      border: 3px solid var(--gold);
+      overflow: hidden;
+      box-shadow: 0 0 0 6px rgba(200,151,42,0.15), var(--shadow-lg);
+      flex-shrink: 0;
+    }
+    .hero-photo-wrap img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
 
-    /* MAIN */
-    .main { max-width: 960px; margin: 0 auto; padding: 4rem 3rem; }
+    /* SECTION WRAPPER */
+    .section-wrap { max-width: 980px; margin: 0 auto; padding: 4rem 3rem; }
     .section-label { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); margin-bottom: 2rem; display: flex; align-items: center; gap: 1rem; }
     .section-label::after { content:''; flex:1; height:1px; background: var(--border2); }
 
-    /* MAKALE GRID */
+    /* HAKKIMDA */
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; align-items: start; }
+    .about-title { font-family: 'Playfair Display', serif; font-size: 1.4rem; font-weight: 800; color: var(--navy); margin-bottom: 1rem; line-height: 1.3; }
+    .about-text { font-size: 0.9rem; color: var(--muted); line-height: 1.8; margin-bottom: 1rem; }
+
+    /* UZMANLIK */
+    .expertise-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem; }
+    .expertise-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.4rem; transition: all 0.2s; box-shadow: var(--shadow); }
+    .expertise-card:hover { border-color: var(--gold); transform: translateY(-2px); box-shadow: var(--shadow-lg); }
+    .expertise-icon { font-size: 1.4rem; margin-bottom: 0.7rem; }
+    .expertise-name { font-family: 'Playfair Display', serif; font-size: 0.95rem; font-weight: 700; color: var(--navy); margin-bottom: 0.5rem; }
+    .expertise-desc { font-size: 0.8rem; color: var(--muted); line-height: 1.55; }
+
+    /* BASARILAR */
+    .achievements-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; }
+    .achievement-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.5rem; box-shadow: var(--shadow); position: relative; overflow: hidden; }
+    .achievement-card::before { content:''; position:absolute; left:0; top:0; bottom:0; width:4px; background: var(--gold); }
+    .achievement-title { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 700; color: var(--navy); margin-bottom: 0.5rem; }
+    .achievement-desc { font-size: 0.82rem; color: var(--muted); line-height: 1.6; }
+
+    /* CALISMA YAKLASIMI */
+    .approach-intro { font-size: 0.93rem; color: var(--muted); line-height: 1.8; margin-bottom: 2rem; max-width: 680px; }
+    .approach-steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+    .approach-step { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.4rem; text-align: center; box-shadow: var(--shadow); }
+    .approach-num { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 800; color: var(--gold); line-height: 1; margin-bottom: 0.5rem; }
+    .approach-step-title { font-weight: 700; font-size: 0.88rem; color: var(--navy); margin-bottom: 0.4rem; }
+    .approach-step-desc { font-size: 0.78rem; color: var(--muted); line-height: 1.5; }
+
+    /* DENEYIM */
+    .exp-list { display: flex; flex-direction: column; gap: 1rem; }
+    .exp-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.5rem 1.8rem; box-shadow: var(--shadow); display: grid; grid-template-columns: auto 1fr; gap: 1.2rem; align-items: start; }
+    .exp-dot { width: 12px; height: 12px; border-radius: 50%; background: var(--gold); margin-top: 4px; flex-shrink: 0; }
+    .exp-role { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 700; color: var(--navy); margin-bottom: 0.2rem; }
+    .exp-company { font-size: 0.82rem; font-weight: 600; color: var(--gold); margin-bottom: 0.15rem; }
+    .exp-period { font-size: 0.75rem; color: var(--light); margin-bottom: 0.6rem; }
+    .exp-desc { font-size: 0.83rem; color: var(--muted); line-height: 1.6; }
+
+    /* MAKALELER */
     #makale-listesi { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.2rem; }
-
-    .makale-kart {
-      background: var(--surface); border: 1px solid var(--border);
-      border-radius: var(--radius); padding: 1.6rem;
-      cursor: pointer; transition: all 0.25s;
-      box-shadow: var(--shadow);
-      display: flex; flex-direction: column; justify-content: space-between;
-    }
+    .makale-kart { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.6rem; cursor: pointer; transition: all 0.25s; box-shadow: var(--shadow); display: flex; flex-direction: column; }
     .makale-kart:hover { border-color: var(--gold); box-shadow: var(--shadow-lg); transform: translateY(-3px); }
-
     .makale-meta { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.9rem; flex-wrap: wrap; }
     .makale-tarih { font-size: 0.7rem; color: var(--light); }
     .makale-etiket { font-size: 0.65rem; font-weight: 700; padding: 0.15rem 0.5rem; background: rgba(200,151,42,0.1); color: var(--gold); border-radius: 4px; border: 1px solid rgba(200,151,42,0.2); text-transform: uppercase; letter-spacing: 0.05em; }
     .makale-baslik { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 700; margin-bottom: 0.6rem; color: var(--navy); line-height: 1.35; }
     .makale-ozet { font-size: 0.82rem; color: var(--muted); line-height: 1.6; flex: 1; }
-
     .makale-footer { margin-top: 1.2rem; padding-top: 1rem; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
     .makale-read { font-size: 0.75rem; font-weight: 700; color: var(--gold); letter-spacing: 0.05em; text-transform: uppercase; }
-
-    /* GORUNTULENME BADGE */
-    .view-badge {
-      display: flex; align-items: center; gap: 0.3rem;
-      font-size: 0.72rem; color: var(--light); font-weight: 500;
-    }
+    .view-badge { display: flex; align-items: center; gap: 0.3rem; font-size: 0.72rem; color: var(--light); }
     .view-badge svg { width: 13px; height: 13px; opacity: 0.6; }
     .view-count { font-weight: 700; color: var(--muted); }
+
+    /* CV CTA */
+    .cta-wrap { background: var(--navy); }
+    .cta-inner { max-width: 980px; margin: 0 auto; padding: 4rem 3rem; text-align: center; }
+    .cta-title { font-family: 'Playfair Display', serif; font-size: 1.6rem; font-weight: 800; color: #fff; margin-bottom: 0.6rem; }
+    .cta-desc { font-size: 0.93rem; color: rgba(255,255,255,0.6); max-width: 540px; margin: 0 auto 2rem; line-height: 1.7; }
+    .cta-buttons { display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; }
 
     /* MODAL */
     .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(26,39,68,0.6); backdrop-filter: blur(4px); z-index: 200; align-items: center; justify-content: center; padding: 1rem; }
@@ -148,45 +169,49 @@
     .modal-close { position: absolute; top: 1.4rem; right: 1.6rem; background: var(--bg); border: 1px solid var(--border); color: var(--muted); font-size: 1rem; cursor: pointer; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.2s; }
     .modal-close:hover { background: var(--navy); color: #fff; border-color: var(--navy); }
     .modal-eyebrow { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.18em; color: var(--gold); text-transform: uppercase; margin-bottom: 0.6rem; }
-    .modal-baslik { font-family: 'Playfair Display', serif; font-size: 1.6rem; font-weight: 800; margin-bottom: 0.5rem; line-height: 1.25; color: var(--navy); }
+    .modal-baslik { font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 800; margin-bottom: 0.5rem; line-height: 1.25; color: var(--navy); }
     .modal-meta { display: flex; align-items: center; gap: 1.2rem; font-size: 0.76rem; color: var(--light); margin-bottom: 1.8rem; padding-bottom: 1.4rem; border-bottom: 1px solid var(--border); }
     .modal-view { display: flex; align-items: center; gap: 0.3rem; font-weight: 600; }
     .modal-icerik { font-size: 0.93rem; line-height: 1.9; color: var(--muted); white-space: pre-wrap; }
     .modal-etiketler { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 2rem; padding-top: 1.4rem; border-top: 1px solid var(--border); }
 
     /* FOOTER */
-    footer { background: var(--navy); padding: 3rem; text-align: center; }
-    .footer-name { font-family: 'Playfair Display', serif; font-size: 1.3rem; font-weight: 700; color: #fff; margin-bottom: 0.4rem; }
-    .footer-title { font-size: 0.8rem; color: rgba(255,255,255,0.4); margin-bottom: 1.5rem; letter-spacing: 0.05em; }
-    .footer-links { display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
-    .footer-links a { color: rgba(255,255,255,0.5); text-decoration: none; font-size: 0.82rem; font-weight: 500; transition: color 0.2s; }
-    .footer-links a:hover { color: var(--gold2); }
-    .footer-copy { font-size: 0.72rem; color: rgba(255,255,255,0.25); }
+    footer { border-top: 1px solid var(--border); padding: 2rem 3rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .footer-left { font-size: 0.8rem; color: var(--light); }
+    .footer-links { display: flex; gap: 1.5rem; }
+    .footer-links a { color: var(--muted); text-decoration: none; font-size: 0.8rem; transition: color 0.2s; }
+    .footer-links a:hover { color: var(--gold); }
 
     .loading { text-align: center; padding: 3rem; color: var(--light); font-size: 0.85rem; }
 
-    @media (max-width: 720px) {
+    @media (max-width: 760px) {
       nav { padding: 0 1.2rem; }
-      .nav-links { gap: 1.2rem; }
-      .hero { grid-template-columns: 1fr; padding: 3.5rem 1.5rem 3rem; gap: 2.5rem; }
-      .hero-stats-col { flex-direction: row; flex-wrap: wrap; }
-      .stat-card { flex: 1; min-width: 130px; }
-      .main { padding: 2.5rem 1.5rem; }
+      .nav-links { gap: 1rem; }
+      .hero { grid-template-columns: 1fr; padding: 3rem 1.5rem; gap: 2rem; }
+      .hero-photo-col { order: -1; }
+      .hero-photo-wrap { width: 140px; height: 140px; }
+      .section-wrap { padding: 2.5rem 1.5rem; }
+      .about-grid { grid-template-columns: 1fr; }
+      .approach-steps { grid-template-columns: repeat(2, 1fr); }
       #makale-listesi { grid-template-columns: 1fr; }
+      .achievements-grid { grid-template-columns: 1fr; }
       .modal { padding: 1.8rem; }
-      footer { padding: 2rem 1.5rem; }
+      footer { flex-direction: column; text-align: center; padding: 1.5rem; }
+      .cta-inner { padding: 3rem 1.5rem; }
     }
   </style>
 </head>
 <body>
 
+<!-- NAV -->
 <nav>
-  <div class="nav-logo">Mehmet Sadik <span>Kiris</span></div>
+  <div class="nav-logo">MSK <span>·</span> Portfolio</div>
   <div class="nav-right">
     <div class="nav-links">
-      <a href="#hakkimda" data-tr="Hakkimda" data-en="About">Hakkimda</a>
+      <a href="#hakkimda" data-tr="Hakkımda" data-en="About">Hakkımda</a>
+      <a href="#uzmanlik" data-tr="Uzmanlık" data-en="Expertise">Uzmanlık</a>
       <a href="#makaleler" data-tr="Makaleler" data-en="Articles">Makaleler</a>
-      <a href="#iletisim" data-tr="Iletisim" data-en="Contact">Iletisim</a>
+      <a href="#iletisim" data-tr="İletişim" data-en="Contact">İletişim</a>
     </div>
     <div class="lang-toggle">
       <button class="lang-btn active" onclick="setLang('tr')">TR</button>
@@ -196,22 +221,20 @@
 </nav>
 
 <!-- HERO -->
-<div class="hero-wrapper" id="hakkimda">
+<div class="hero-wrapper">
   <div class="hero">
     <div>
-      <div class="hero-eyebrow" data-tr="Mekanik Bakim & Guvenilirlik Muhendisligi" data-en="Mechanical Maintenance & Reliability Engineering">Mekanik Bakim & Guvenilirlik Muhendisligi</div>
-      <h1>
-        Mehmet Sadik Kiris
-        <span class="name-sub" data-tr="Mekanik Bakim ve Yardimci Isletmeler Yetkilisi" data-en="Mechanical Maintenance & Auxiliary Facilities Manager">Mekanik Bakim ve Yardimci Isletmeler Yetkilisi</span>
-      </h1>
-      <p class="hero-desc" data-tr="Endustriyel tesislerde bakim yonetimi, guvenilirlik muhendisligi ve dijital donusum alanlarinda 9 yili askin deneyim. IZOCAM Cam Yunu Fabrikasi'nda TPM, WCM ve kestirimci bakim stratejilerini yurutuyor, teknik bilgi birikimini makaleler araciligiyla paylasiyor." data-en="Over 9 years of experience in maintenance management, reliability engineering, and digital transformation in industrial facilities. Driving TPM, WCM, and predictive maintenance strategies at IZOCAM Glass Wool Factory.">
-        Endustriyel tesislerde bakim yonetimi, guvenilirlik muhendisligi ve dijital donusum alanlarinda 9 yili askin deneyim.
+      <div class="hero-eyebrow" data-tr="Mekanik Bakım & Reliability Engineering" data-en="Mechanical Maintenance & Reliability Engineering">Mekanik Bakım & Reliability Engineering</div>
+      <div class="hero-name">MEHMET SADIK KIRIŞ</div>
+      <div class="hero-title" data-tr="Mekanik Bakım Mühendisi" data-en="Mechanical Maintenance Engineer">Mekanik Bakım Mühendisi</div>
+      <p class="hero-desc" data-tr="Endüstriyel tesislerde bakım yönetimi, güvenilirlik mühendisliği ve dijital dönüşüm alanlarında 9 yılı aşkın deneyim. İZOCAM Cam Yünü Fabrikası'nda TPM, WCM ve kestirimci bakım stratejilerini yürütüyor; teknik bilgi birikimini makaleler aracılığıyla paylaşıyor." data-en="Over 9 years of experience in maintenance management, reliability engineering and digital transformation in industrial facilities. Currently driving TPM, WCM and predictive maintenance strategies at IZOCAM Glass Wool Factory.">
+        Endüstriyel tesislerde bakım yönetimi, güvenilirlik mühendisliği ve dijital dönüşüm alanlarında 9 yılı aşkın deneyim. İZOCAM Cam Yünü Fabrikası'nda TPM, WCM ve kestirimci bakım stratejilerini yürütüyor.
       </p>
       <div class="hero-tags">
         <span class="hero-tag">Predictive Maintenance</span>
         <span class="hero-tag">TPM / WCM</span>
         <span class="hero-tag">RCA</span>
-        <span class="hero-tag">Zero BD</span>
+        <span class="hero-tag">Zero Breakdown</span>
         <span class="hero-tag">5S &amp; Kaizen</span>
         <span class="hero-tag">EHS</span>
         <span class="hero-tag">Power BI</span>
@@ -219,50 +242,232 @@
         <span class="hero-tag">MTBF / MTTR</span>
         <span class="hero-tag">Reliability Engineering</span>
       </div>
-      <div class="hero-links" style="margin-top:1.8rem;">
+      <div class="hero-links">
         <a href="https://linkedin.com/in/mehmetsadikkrs" target="_blank" class="btn btn-gold" data-tr="LinkedIn Profilim" data-en="LinkedIn Profile">LinkedIn Profilim</a>
         <a href="mailto:mehmet.s.kiris@gmail.com" class="btn btn-ghost">mehmet.s.kiris@gmail.com</a>
       </div>
     </div>
-    <div class="hero-stats-col">
-      <div class="stat-card">
-        <div class="stat-val" id="stat-yil">0</div>
-        <div class="stat-lbl" data-tr="Yil Endustriyel Deneyim" data-en="Years Industrial Experience">Yil Endustriyel Deneyim</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-val">%7</div>
-        <div class="stat-lbl" data-tr="Arizasizlik Oraninda Artis" data-en="Reduction in Failure Rate">Arizasizlik Oraninda Artis</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-val">11K</div>
-        <div class="stat-lbl" data-tr="Puan Risk Azalmasi" data-en="Points Risk Score Reduction">Puan Risk Azalmasi</div>
+    <div class="hero-photo-col">
+      <div class="hero-photo-wrap">
+        <img src="photo.png" alt="Mehmet Sadik Kiris" />
       </div>
     </div>
   </div>
 </div>
 
+<!-- HAKKIMDA -->
+<section id="hakkimda">
+  <div class="section-wrap">
+    <div class="section-label" data-tr="Hakkımda" data-en="About Me">Hakkımda</div>
+    <div class="about-grid">
+      <div>
+        <div class="about-title" data-tr="Bakım, Güvenilirlik ve Dijital Dönüşüm Odaklı Mühendislik Yaklaşımı" data-en="A Maintenance, Reliability and Digital Transformation Engineering Approach">Bakım, Güvenilirlik ve Dijital Dönüşüm Odaklı Mühendislik Yaklaşımı</div>
+        <p class="about-text" data-tr="Endüstriyel üretim tesislerinde mekanik bakım, yardımcı işletmeler, güvenilirlik mühendisliği ve dijital bakım yönetimi alanlarında 9 yılı aşkın deneyime sahibim." data-en="I have over 9 years of experience in mechanical maintenance, utility systems, reliability engineering, and digital maintenance management in industrial production facilities.">Endüstriyel üretim tesislerinde mekanik bakım, yardımcı işletmeler, güvenilirlik mühendisliği ve dijital bakım yönetimi alanlarında 9 yılı aşkın deneyime sahibim.</p>
+        <p class="about-text" data-tr="Kariyerim boyunca önleyici bakım, kestirimci bakım, RCA, TPM/WCM, Zero Breakdown ve EHS süreçlerinde aktif rol alarak bakım operasyonlarının daha güvenli, ölçülebilir ve sürdürülebilir hale gelmesine katkı sağladım." data-en="Throughout my career, I have actively contributed to preventive maintenance, predictive maintenance, RCA, TPM/WCM, Zero Breakdown, and EHS processes, making maintenance operations safer, more measurable, and more sustainable.">Kariyerim boyunca önleyici bakım, kestirimci bakım, RCA, TPM/WCM, Zero Breakdown ve EHS süreçlerinde aktif rol alarak bakım operasyonlarının daha güvenli, ölçülebilir ve sürdürülebilir hale gelmesine katkı sağladım.</p>
+        <p class="about-text" data-tr="Bugün teknik saha tecrübemi; veri analizi, Power BI dashboard yapıları, bakım KPI'ları ve güvenilirlik odaklı karar sistemleriyle birleştirerek bakım yönetiminde daha dijital ve sistematik bir yaklaşım geliştirmeye odaklanıyorum." data-en="Today, I focus on combining my technical field experience with data analysis, Power BI dashboards, maintenance KPIs, and reliability-driven decision systems to develop a more digital and systematic approach to maintenance management.">Bugün teknik saha tecrübemi; veri analizi, Power BI dashboard yapıları, bakım KPI'ları ve güvenilirlik odaklı karar sistemleriyle birleştirerek daha dijital ve sistematik bir yaklaşım geliştirmeye odaklanıyorum.</p>
+      </div>
+      <div>
+        <div class="about-title" data-tr="Bakımda Benimsediğim Yaklaşım" data-en="My Approach to Maintenance">Bakımda Benimsediğim Yaklaşım</div>
+        <p class="about-text" data-tr="Bakım süreçlerinde temel yaklaşımım; arızaya müdahale eden değil, arızayı önceden gören ve sistematik olarak azaltan bir yapı kurmaktır." data-en="My fundamental approach in maintenance processes is to build a structure that proactively identifies and systematically reduces failures — rather than simply reacting to them.">Bakım süreçlerinde temel yaklaşımım; arızaya müdahale eden değil, arızayı önceden gören ve sistematik olarak azaltan bir yapı kurmaktır.</p>
+        <p class="about-text" data-tr="Bunun için saha gözlemi, doğru veri kaydı, kök neden analizi, risk önceliklendirme ve dijital takip araçlarını birlikte kullanıyorum." data-en="To achieve this, I use field observation, accurate data recording, root cause analysis, risk prioritization, and digital tracking tools together.">Bunun için saha gözlemi, doğru veri kaydı, kök neden analizi, risk önceliklendirme ve dijital takip araçlarını birlikte kullanıyorum.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- UZMANLIK -->
+<section id="uzmanlik" style="background: var(--surface); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+  <div class="section-wrap">
+    <div class="section-label" data-tr="Uzmanlık Alanlarım" data-en="Areas of Expertise">Uzmanlık Alanlarım</div>
+    <div class="expertise-grid">
+      <div class="expertise-card">
+        <div class="expertise-icon">⚙️</div>
+        <div class="expertise-name" data-tr="Bakım Yönetimi" data-en="Maintenance Management">Bakım Yönetimi</div>
+        <div class="expertise-desc" data-tr="Plansız duruşları azaltmak, bakım ekiplerini koordine etmek ve mekanik bakım operasyonlarını üretim sürekliliğiyle uyumlu şekilde yönetmek." data-en="Reducing unplanned downtime, coordinating maintenance teams, and managing mechanical maintenance operations aligned with production continuity.">Plansız duruşları azaltmak, bakım ekiplerini koordine etmek ve mekanik bakım operasyonlarını üretim sürekliliğiyle uyumlu şekilde yönetmek.</div>
+      </div>
+      <div class="expertise-card">
+        <div class="expertise-icon">📊</div>
+        <div class="expertise-name" data-tr="Reliability Engineering" data-en="Reliability Engineering">Reliability Engineering</div>
+        <div class="expertise-desc" data-tr="MTBF, MTTR, arıza frekansı ve duruş süresi gibi göstergelerle ekipman performansını analiz ederek bakım stratejilerini veriye dayalı şekilde geliştirmek." data-en="Analyzing equipment performance with indicators such as MTBF, MTTR, failure frequency, and downtime to develop data-driven maintenance strategies.">MTBF, MTTR, arıza frekansı ve duruş süresi gibi göstergelerle ekipman performansını analiz ederek bakım stratejilerini veriye dayalı şekilde geliştirmek.</div>
+      </div>
+      <div class="expertise-card">
+        <div class="expertise-icon">🔍</div>
+        <div class="expertise-name" data-tr="Önleyici & Kestirimci Bakım" data-en="Preventive & Predictive Maintenance">Önleyici & Kestirimci Bakım</div>
+        <div class="expertise-desc" data-tr="Ekipman durumu, bakım geçmişi ve arıza davranışlarını analiz ederek bakım faaliyetlerini daha planlı, öngörülebilir ve risk odaklı yönetmek." data-en="Analyzing equipment condition, maintenance history, and failure behavior to manage maintenance activities in a more planned, predictable, and risk-focused manner.">Ekipman durumu, bakım geçmişi ve arıza davranışlarını analiz ederek bakım faaliyetlerini daha planlı, öngörülebilir ve risk odaklı yönetmek.</div>
+      </div>
+      <div class="expertise-card">
+        <div class="expertise-icon">🎯</div>
+        <div class="expertise-name" data-tr="RCA & Zero Breakdown" data-en="RCA & Zero Breakdown">RCA & Zero Breakdown</div>
+        <div class="expertise-desc" data-tr="Tekrarlayan arızaların kök nedenlerini analiz ederek kalıcı aksiyonlar oluşturmak ve Zero Breakdown yaklaşımıyla arıza kaynaklarını sistematik olarak azaltmak." data-en="Analyzing root causes of recurring failures to create permanent corrective actions and systematically reducing failure sources with the Zero Breakdown approach.">Tekrarlayan arızaların kök nedenlerini analiz ederek kalıcı aksiyonlar oluşturmak ve Zero Breakdown yaklaşımıyla arıza kaynaklarını sistematik olarak azaltmak.</div>
+      </div>
+      <div class="expertise-card">
+        <div class="expertise-icon">🏭</div>
+        <div class="expertise-name">TPM / WCM / Kaizen</div>
+        <div class="expertise-desc" data-tr="5S, Standard Kaizen, Reliability Foundation, e-check ve Zero Breakdown uygulamalarıyla sürekli iyileştirme kültürünün sahada güçlenmesine katkı sağlamak." data-en="Contributing to the strengthening of a continuous improvement culture in the field through 5S, Standard Kaizen, Reliability Foundation, e-check, and Zero Breakdown practices.">5S, Standard Kaizen, Reliability Foundation, e-check ve Zero Breakdown uygulamalarıyla sürekli iyileştirme kültürünün sahada güçlenmesine katkı sağlamak.</div>
+      </div>
+      <div class="expertise-card">
+        <div class="expertise-icon">💻</div>
+        <div class="expertise-name" data-tr="Dijital Bakım & Power BI" data-en="Digital Maintenance & Power BI">Dijital Bakım & Power BI</div>
+        <div class="expertise-desc" data-tr="Bakım verilerini Power BI dashboardları, KPI takip sistemleri ve makine bazlı analizlerle daha görünür, ölçülebilir ve karar alınabilir hale getirmek." data-en="Making maintenance data more visible, measurable, and actionable through Power BI dashboards, KPI tracking systems, and machine-based analytics.">Bakım verilerini Power BI dashboardları, KPI takip sistemleri ve makine bazlı analizlerle daha görünür, ölçülebilir ve karar alınabilir hale getirmek.</div>
+      </div>
+      <div class="expertise-card">
+        <div class="expertise-icon">🛡️</div>
+        <div class="expertise-name" data-tr="EHS & Risk Yönetimi" data-en="EHS & Risk Management">EHS & Risk Yönetimi</div>
+        <div class="expertise-desc" data-tr="Bakım operasyonlarında iş güvenliği, yasal mevzuat uyumluluğu ve saha risklerinin azaltılmasını temel öncelik olarak ele almak." data-en="Treating occupational safety, legal compliance, and reduction of field risks as core priorities in maintenance operations.">Bakım operasyonlarında iş güvenliği, yasal mevzuat uyumluluğu ve saha risklerinin azaltılmasını temel öncelik olarak ele almak.</div>
+      </div>
+      <div class="expertise-card">
+        <div class="expertise-icon">🤝</div>
+        <div class="expertise-name" data-tr="Müteahhit Yönetimi" data-en="Contractor Management">Müteahhit Yönetimi</div>
+        <div class="expertise-desc" data-tr="Müteahhit faaliyetlerini teknik kalite, iş güvenliği, zaman planı ve operasyonel standartlara uygun şekilde koordine etmek." data-en="Coordinating contractor activities in accordance with technical quality, occupational safety, scheduling, and operational standards.">Müteahhit faaliyetlerini teknik kalite, iş güvenliği, zaman planı ve operasyonel standartlara uygun şekilde koordine etmek.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BASARILAR -->
+<section>
+  <div class="section-wrap">
+    <div class="section-label" data-tr="Öne Çıkan Katkı Alanlarım" data-en="Key Contribution Areas">Öne Çıkan Katkı Alanlarım</div>
+    <div class="achievements-grid">
+      <div class="achievement-card">
+        <div class="achievement-title" data-tr="Güvenilirlik Odaklı Bakım" data-en="Reliability-Centered Maintenance">Güvenilirlik Odaklı Bakım</div>
+        <div class="achievement-desc" data-tr="Plansız duruşları azaltmak, ekipman performansını artırmak ve bakım stratejilerini veriye dayalı şekilde geliştirmek üzerine çalışıyorum." data-en="I work on reducing unplanned downtime, improving equipment performance, and developing maintenance strategies based on data.">Plansız duruşları azaltmak, ekipman performansını artırmak ve bakım stratejilerini veriye dayalı şekilde geliştirmek üzerine çalışıyorum.</div>
+      </div>
+      <div class="achievement-card">
+        <div class="achievement-title" data-tr="Dijital Bakım Yönetimi" data-en="Digital Maintenance Management">Dijital Bakım Yönetimi</div>
+        <div class="achievement-desc" data-tr="Bakım verilerini Power BI dashboardları, KPI takip sistemleri ve makine bazlı analizlerle karar destek sistemlerine dönüştürüyorum." data-en="I transform maintenance data into decision support systems through Power BI dashboards, KPI tracking systems, and machine-based analytics.">Bakım verilerini Power BI dashboardları, KPI takip sistemleri ve makine bazlı analizlerle karar destek sistemlerine dönüştürüyorum.</div>
+      </div>
+      <div class="achievement-card">
+        <div class="achievement-title" data-tr="RCA ve Kalıcı Çözümler" data-en="RCA and Permanent Solutions">RCA ve Kalıcı Çözümler</div>
+        <div class="achievement-desc" data-tr="Tekrarlayan arızaların kök nedenlerini analiz ederek geçici müdahaleler yerine sürdürülebilir ve kalıcı aksiyonlar oluşturmayı hedefliyorum." data-en="I aim to create sustainable and permanent corrective actions rather than temporary fixes by analyzing the root causes of recurring failures.">Tekrarlayan arızaların kök nedenlerini analiz ederek geçici müdahaleler yerine sürdürülebilir ve kalıcı aksiyonlar oluşturmayı hedefliyorum.</div>
+      </div>
+      <div class="achievement-card">
+        <div class="achievement-title">TPM / WCM / Zero Breakdown</div>
+        <div class="achievement-desc" data-tr="5S, Standard Kaizen, Reliability Foundation, e-check ve Zero Breakdown uygulamalarıyla sürekli iyileştirme kültürünün sahada güçlenmesine katkı sağlıyorum." data-en="I contribute to strengthening the continuous improvement culture in the field through 5S, Standard Kaizen, Reliability Foundation, e-check, and Zero Breakdown practices.">5S, Standard Kaizen, Reliability Foundation, e-check ve Zero Breakdown uygulamalarıyla sürekli iyileştirme kültürünün sahada güçlenmesine katkı sağlıyorum.</div>
+      </div>
+      <div class="achievement-card">
+        <div class="achievement-title" data-tr="EHS ve Risk Yönetimi" data-en="EHS and Risk Management">EHS ve Risk Yönetimi</div>
+        <div class="achievement-desc" data-tr="Bakım operasyonlarında iş güvenliği, yasal mevzuat uyumluluğu ve saha risklerinin azaltılmasını temel öncelik olarak ele alıyorum." data-en="I treat occupational safety, legal compliance, and reduction of field risks as fundamental priorities in maintenance operations.">Bakım operasyonlarında iş güvenliği, yasal mevzuat uyumluluğu ve saha risklerinin azaltılmasını temel öncelik olarak ele alıyorum.</div>
+      </div>
+      <div class="achievement-card">
+        <div class="achievement-title" data-tr="Müteahhit ve Dış Servis Yönetimi" data-en="Contractor and External Service Management">Müteahhit ve Dış Servis Yönetimi</div>
+        <div class="achievement-desc" data-tr="Dış servis ve müteahhit faaliyetlerini teknik kalite, güvenlik, zaman planı ve operasyonel standartlara uygun şekilde koordine ediyorum." data-en="I coordinate external service and contractor activities in accordance with technical quality, safety, scheduling, and operational standards.">Dış servis ve müteahhit faaliyetlerini teknik kalite, güvenlik, zaman planı ve operasyonel standartlara uygun şekilde koordine ediyorum.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CALISMA YAKLASIMI -->
+<section style="background: var(--surface); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+  <div class="section-wrap">
+    <div class="section-label" data-tr="Çalışma Yaklaşımım" data-en="My Work Approach">Çalışma Yaklaşımım</div>
+    <p class="approach-intro" data-tr="Bakım süreçlerinde temel yaklaşımım; arızaya müdahale eden değil, arızayı önceden gören ve sistematik olarak azaltan bir yapı kurmaktır. Bunun için saha gözlemi, doğru veri kaydı, kök neden analizi, risk önceliklendirme ve dijital takip araçlarını birlikte kullanıyorum." data-en="My fundamental approach in maintenance is to build a structure that proactively identifies and systematically reduces failures — rather than simply reacting to them. I use field observation, accurate data recording, root cause analysis, risk prioritization, and digital tracking tools together.">Bakım süreçlerinde temel yaklaşımım; arızaya müdahale eden değil, arızayı önceden gören ve sistematik olarak azaltan bir yapı kurmaktır. Bunun için saha gözlemi, doğru veri kaydı, kök neden analizi, risk önceliklendirme ve dijital takip araçlarını birlikte kullanıyorum.</p>
+    <div class="approach-steps">
+      <div class="approach-step">
+        <div class="approach-num">01</div>
+        <div class="approach-step-title" data-tr="Ölç" data-en="Measure">Ölç</div>
+        <div class="approach-step-desc" data-tr="Arıza, duruş, maliyet, risk ve bakım verilerini düzenli olarak takip et." data-en="Regularly track failure, downtime, cost, risk, and maintenance data.">Arıza, duruş, maliyet, risk ve bakım verilerini düzenli olarak takip et.</div>
+      </div>
+      <div class="approach-step">
+        <div class="approach-num">02</div>
+        <div class="approach-step-title" data-tr="Analiz Et" data-en="Analyze">Analiz Et</div>
+        <div class="approach-step-desc" data-tr="RCA, MTBF, MTTR ve Pareto analizleriyle gerçek problem kaynaklarını belirle." data-en="Identify real problem sources using RCA, MTBF, MTTR, and Pareto analyses.">RCA, MTBF, MTTR ve Pareto analizleriyle gerçek problem kaynaklarını belirle.</div>
+      </div>
+      <div class="approach-step">
+        <div class="approach-num">03</div>
+        <div class="approach-step-title" data-tr="Aksiyon Al" data-en="Take Action">Aksiyon Al</div>
+        <div class="approach-step-desc" data-tr="Kalıcı çözümler, standart bakım planları ve iyileştirme aksiyonları oluştur." data-en="Create permanent solutions, standard maintenance plans, and improvement actions.">Kalıcı çözümler, standart bakım planları ve iyileştirme aksiyonları oluştur.</div>
+      </div>
+      <div class="approach-step">
+        <div class="approach-num">04</div>
+        <div class="approach-step-title" data-tr="Dijitalleştir" data-en="Digitalize">Dijitalleştir</div>
+        <div class="approach-step-desc" data-tr="Power BI, CMMS ve bakım dashboard yapılarıyla süreci görünür ve sürdürülebilir hale getir." data-en="Make the process visible and sustainable with Power BI, CMMS, and maintenance dashboards.">Power BI, CMMS ve bakım dashboard yapılarıyla süreci görünür ve sürdürülebilir hale getir.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- MAKALELER -->
-<main class="main" id="makaleler">
-  <div class="section-label" data-tr="Teknik Makaleler" data-en="Technical Articles">Teknik Makaleler</div>
-  <div id="makale-listesi"><div class="loading">Yukleniyor...</div></div>
-</main>
+<section id="makaleler">
+  <div class="section-wrap">
+    <div class="section-label" data-tr="Teknik Makaleler" data-en="Technical Articles">Teknik Makaleler</div>
+    <div id="makale-listesi"><div class="loading" data-tr="Yükleniyor..." data-en="Loading...">Yükleniyor...</div></div>
+  </div>
+</section>
+
+<!-- DENEYIM -->
+<section style="background: var(--surface); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+  <div class="section-wrap">
+    <div class="section-label" data-tr="Deneyim Özeti" data-en="Experience Summary">Deneyim Özeti</div>
+    <p class="approach-intro" data-tr="Bakım, güvenilirlik ve üretim operasyonları alanlarında edindiğim saha deneyimini; dijital bakım yönetimi, veri analitiği ve yapay zeka destekli bakım sistemleri odağında geliştiriyorum. Kariyer hedefim, bakım metodolojilerini saha verisi ve yapay zeka teknolojileriyle birleştirerek daha öngörülebilir, ölçülebilir ve akıllı bakım sistemleri geliştirmektir." data-en="I am developing my field experience in maintenance, reliability, and production operations with a focus on digital maintenance management, data analytics, and AI-supported maintenance systems. My career goal is to develop more predictable, measurable, and intelligent maintenance systems by combining maintenance methodologies with field data and AI technologies.">Bakım, güvenilirlik ve üretim operasyonları alanlarında edindiğim saha deneyimini; dijital bakım yönetimi, veri analitiği ve yapay zeka destekli bakım sistemleri odağında geliştiriyorum.</p>
+    <div class="exp-list">
+      <div class="exp-card">
+        <div class="exp-dot"></div>
+        <div>
+          <div class="exp-role" data-tr="Mekanik Bakım ve Yardımcı Tesisler Yetkilisi & Vardiya Amiri" data-en="Mechanical Maintenance & Auxiliary Facilities Manager / Shift Supervisor">Mekanik Bakım ve Yardımcı Tesisler Yetkilisi & Vardiya Amiri</div>
+          <div class="exp-company">İZOCAM Cam Yünü Fabrikası — Mersin</div>
+          <div class="exp-period">04.2020 — <span data-tr="Devam Ediyor" data-en="Present">Devam Ediyor</span></div>
+          <div class="exp-desc" data-tr="Güvenilirlik merkezli bakım stratejileri, WCM/TPM süreçleri, kestirimci bakımın dijitalleştirilmesi, EHS uyumluluğu ve müteahhit koordinasyonu. Tesis risk puanında 11.090 puanlık düşüş sağlanmasına katkı. Arıza oranlarında %7 azalma." data-en="Reliability-centered maintenance strategies, WCM/TPM processes, digitalization of predictive maintenance, EHS compliance, and contractor coordination. Contributed to an 11,090-point reduction in facility risk score. 7% reduction in failure rates.">Güvenilirlik merkezli bakım stratejileri, WCM/TPM süreçleri, kestirimci bakımın dijitalleştirilmesi, EHS uyumluluğu ve müteahhit koordinasyonu. Tesis risk puanında 11.090 puanlık düşüş sağlanmasına katkı.</div>
+        </div>
+      </div>
+      <div class="exp-card">
+        <div class="exp-dot"></div>
+        <div>
+          <div class="exp-role" data-tr="Üretim ve Planlama Mühendisi" data-en="Production and Planning Engineer">Üretim ve Planlama Mühendisi</div>
+          <div class="exp-company">SERA TEKNİK — Mersin</div>
+          <div class="exp-period">02.2019 — 11.2019</div>
+          <div class="exp-desc" data-tr="Üretim planlama verimliliğinin artırılması ve yeni planlama stratejilerinin devreye alınması." data-en="Increasing production planning efficiency and implementing new planning strategies.">Üretim planlama verimliliğinin artırılması ve yeni planlama stratejilerinin devreye alınması.</div>
+        </div>
+      </div>
+      <div class="exp-card">
+        <div class="exp-dot"></div>
+        <div>
+          <div class="exp-role" data-tr="Üretim ve Planlama Mühendisi" data-en="Production and Planning Engineer">Üretim ve Planlama Mühendisi</div>
+          <div class="exp-company">Fy ENDÜSTRİ — Mersin</div>
+          <div class="exp-period">01.2018 — 09.2018</div>
+          <div class="exp-desc" data-tr="Üretim planlama süreçlerinin iyileştirilmesi ve yeni planlama stratejilerinin devreye alınması." data-en="Improving production planning processes and implementing new planning strategies.">Üretim planlama süreçlerinin iyileştirilmesi ve yeni planlama stratejilerinin devreye alınması.</div>
+        </div>
+      </div>
+      <div class="exp-card">
+        <div class="exp-dot"></div>
+        <div>
+          <div class="exp-role" data-tr="Üretim Mühendisi" data-en="Production Engineer">Üretim Mühendisi</div>
+          <div class="exp-company">Akdeniz Çivi ve Tel Fabrikası — Mersin</div>
+          <div class="exp-period">09.2015 — 01.2017</div>
+          <div class="exp-desc" data-tr="Optimizasyon stratejileri aracılığıyla süreç izlenebilirliği ve üretim maliyetlerinin azaltılması." data-en="Process traceability and reduction of production costs through optimization strategies.">Optimizasyon stratejileri aracılığıyla süreç izlenebilirliği ve üretim maliyetlerinin azaltılması.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CV / ILETISIM CTA -->
+<div class="cta-wrap" id="iletisim">
+  <div class="cta-inner">
+    <div class="cta-title" data-tr="Bakım, Güvenilirlik ve Dijital Dönüşüm Odaklı Çalışmalarımı İnceleyin" data-en="Explore My Work in Maintenance, Reliability and Digital Transformation">Bakım, Güvenilirlik ve Dijital Dönüşüm Odaklı Çalışmalarımı İnceleyin</div>
+    <p class="cta-desc" data-tr="Endüstriyel bakım yönetimi, güvenilirlik mühendisliği, dijital bakım sistemleri ve sürekli iyileştirme alanlarındaki deneyimlerimi daha detaylı incelemek için CV'mi indirebilir veya LinkedIn profilim üzerinden benimle iletişime geçebilirsiniz." data-en="You can download my CV or contact me via LinkedIn to explore my experience in industrial maintenance management, reliability engineering, digital maintenance systems, and continuous improvement in more detail.">Endüstriyel bakım yönetimi, güvenilirlik mühendisliği, dijital bakım sistemleri ve sürekli iyileştirme alanlarındaki deneyimlerimi daha detaylı incelemek için CV'mi indirebilir veya LinkedIn profilim üzerinden benimle iletişime geçebilirsiniz.</p>
+    <div class="cta-buttons">
+      <a href="Mehmet_Sadik_Kiris_CV.pdf" download class="btn btn-gold" data-tr="CV'yi İndir" data-en="Download CV">CV'yi İndir</a>
+      <a href="https://linkedin.com/in/mehmetsadikkrs" target="_blank" class="btn btn-ghost" data-tr="LinkedIn Profilim" data-en="LinkedIn Profile">LinkedIn Profilim</a>
+      <a href="mailto:mehmet.s.kiris@gmail.com" class="btn btn-ghost">mehmet.s.kiris@gmail.com</a>
+    </div>
+  </div>
+</div>
 
 <!-- FOOTER -->
-<footer id="iletisim">
-  <div class="footer-name">Mehmet Sadik Kiris</div>
-  <div class="footer-title" data-tr="Mekanik Bakim ve Yardimci Isletmeler Yetkilisi · Tarsus, Mersin" data-en="Mechanical Maintenance & Auxiliary Facilities Manager · Tarsus, Mersin">Mekanik Bakim ve Yardimci Isletmeler Yetkilisi · Tarsus, Mersin</div>
+<footer>
+  <div class="footer-left">© 2025 Mehmet Sadik Kırış · Tarsus, Mersin</div>
   <div class="footer-links">
     <a href="https://linkedin.com/in/mehmetsadikkrs" target="_blank">LinkedIn</a>
-    <a href="mailto:mehmet.s.kiris@gmail.com">mehmet.s.kiris@gmail.com</a>
+    <a href="mailto:mehmet.s.kiris@gmail.com">E-posta</a>
     <a href="tel:+905067915425">+90 506 791 54 25</a>
   </div>
-  <div class="footer-copy">2025 Mehmet Sadik Kiris</div>
 </footer>
 
 <!-- MODAL -->
 <div class="modal-overlay" id="modal-overlay">
   <div class="modal">
-    <button class="modal-close" id="modal-kapat">x</button>
+    <button class="modal-close" id="modal-kapat">✕</button>
     <div class="modal-eyebrow" data-tr="Teknik Makale" data-en="Technical Article">Teknik Makale</div>
     <div class="modal-baslik" id="modal-baslik"></div>
     <div class="modal-meta">
@@ -278,63 +483,39 @@
 </div>
 
 <script>
-// ── GORUNTULENME DEPOLAMA (Anthropic Storage API) ──
-// Her makale icin anahtar: "views:ID"
-// Deger: { count: sayi, lastDailyTick: "YYYY-MM-DD" }
-
+// ── STORAGE ──
 async function getViews(id) {
-  try {
-    const r = await window.storage.get('views:' + id);
-    return r ? JSON.parse(r.value) : null;
-  } catch(e) { return null; }
+  try { const r = await window.storage.get('views:' + id); return r ? JSON.parse(r.value) : null; } catch(e) { return null; }
 }
-
 async function setViews(id, data) {
   try { await window.storage.set('views:' + id, JSON.stringify(data)); } catch(e) {}
 }
-
-// Baslangic sayisini ilk kez yaz, sonra gunluk +1/+2 ekle
 async function hesaplaViews(makale) {
   const bugun = new Date().toISOString().slice(0, 10);
   let data = await getViews(makale.id);
-
   if (!data) {
-    // Ilk ziyaret: baslangic sayisini depola
-    // Makale tarihinden bugune kac gun gecti? Her gun 1.3 ortalama ekle (dogal buyume)
     const makTarih = new Date(makale.tarih);
     const fark = Math.floor((Date.now() - makTarih) / 86400000);
     const dogalArtis = Math.floor(fark * 1.3);
-    data = {
-      count: (makale.goruntulenme_baslangic || 700) + dogalArtis,
-      lastDailyTick: bugun
-    };
+    data = { count: (makale.goruntulenme_baslangic || 700) + dogalArtis, lastDailyTick: bugun };
     await setViews(makale.id, data);
   } else if (data.lastDailyTick !== bugun) {
-    // Yeni gun: +1 veya +2 rastgele ekle
     const sonTick = new Date(data.lastDailyTick);
     const gecenGun = Math.floor((Date.now() - sonTick) / 86400000);
-    const artis = gecenGun * (Math.random() < 0.5 ? 1 : 2);
-    data.count += artis;
+    data.count += gecenGun * (Math.random() < 0.5 ? 1 : 2);
     data.lastDailyTick = bugun;
     await setViews(makale.id, data);
   }
-
   return data.count;
 }
-
 async function artirView(id) {
   let data = await getViews(id);
-  if (data) {
-    data.count += 1;
-    await setViews(id, data);
-    return data.count;
-  }
+  if (data) { data.count += 1; await setViews(id, data); return data.count; }
   return null;
 }
 
 // ── DIL ──
 let currentLang = 'tr';
-
 function setLang(lang) {
   currentLang = lang;
   document.documentElement.setAttribute('data-lang', lang);
@@ -353,16 +534,10 @@ async function yukle() {
     const res = await fetch('makaleler.json');
     tumMakaleler = await res.json();
     tumMakaleler.sort((a, b) => new Date(b.tarih) - new Date(a.tarih));
-
-    // Tum view sayilarini onceden hesapla
-    await Promise.all(tumMakaleler.map(async m => {
-      viewCache[m.id] = await hesaplaViews(m);
-    }));
-
+    await Promise.all(tumMakaleler.map(async m => { viewCache[m.id] = await hesaplaViews(m); }));
     yukleKartlar();
   } catch(e) {
-    document.getElementById('makale-listesi').innerHTML =
-      '<div class="loading">makaleler.json bulunamadi.</div>';
+    document.getElementById('makale-listesi').innerHTML = '<div class="loading">makaleler.json bulunamadi.</div>';
   }
 }
 
@@ -374,7 +549,6 @@ function yukleKartlar() {
     const ozet   = currentLang === 'en' && m.ozet_en   ? m.ozet_en   : m.ozet;
     const icerik = currentLang === 'en' && m.icerik_en ? m.icerik_en : m.icerik;
     const views  = viewCache[m.id] || m.goruntulenme_baslangic || 0;
-
     const kart = document.createElement('div');
     kart.className = 'makale-kart';
     kart.innerHTML = `
@@ -392,38 +566,30 @@ function yukleKartlar() {
           <span class="view-count" id="vc-${m.id}">${formatSayi(views)}</span>
         </div>
         <span class="makale-read">${currentLang === 'en' ? 'Read' : 'Oku'} &rarr;</span>
-      </div>
-    `;
+      </div>`;
     kart.addEventListener('click', () => modalAc(m, baslik, icerik));
     liste.appendChild(kart);
   });
 }
 
 async function modalAc(m, baslik, icerik) {
-  // Once modal ac, sonra view artir
   document.getElementById('modal-baslik').textContent = baslik;
   document.getElementById('modal-tarih').textContent  = formatTarih(m.tarih);
   document.getElementById('modal-icerik').textContent = icerik;
   document.getElementById('modal-etiketler').innerHTML = m.etiketler.map(e => `<span class="makale-etiket">${e}</span>`).join('');
-  document.getElementById('modal-views').textContent  = formatSayi(viewCache[m.id] || 0) + ' ' + (currentLang === 'en' ? 'views' : 'goruntulenme');
+  document.getElementById('modal-views').textContent  = formatSayi(viewCache[m.id] || 0) + ' ' + (currentLang === 'en' ? 'views' : 'görüntülenme');
   document.getElementById('modal-overlay').classList.add('open');
   document.body.style.overflow = 'hidden';
-
-  // View artir
   const yeni = await artirView(m.id);
   if (yeni) {
     viewCache[m.id] = yeni;
     const vc = document.getElementById('vc-' + m.id);
     if (vc) vc.textContent = formatSayi(yeni);
-    document.getElementById('modal-views').textContent = formatSayi(yeni) + ' ' + (currentLang === 'en' ? 'views' : 'goruntulenme');
+    document.getElementById('modal-views').textContent = formatSayi(yeni) + ' ' + (currentLang === 'en' ? 'views' : 'görüntülenme');
   }
 }
 
-function formatSayi(n) {
-  if (n >= 1000) return (n / 1000).toFixed(1).replace('.0','') + 'k';
-  return n.toString();
-}
-
+function formatSayi(n) { if (n >= 1000) return (n / 1000).toFixed(1).replace('.0','') + 'k'; return n.toString(); }
 function formatTarih(str) {
   const d = new Date(str);
   if (currentLang === 'en') return d.toLocaleDateString('en-GB', { day:'numeric', month:'long', year:'numeric' });
@@ -434,20 +600,6 @@ document.getElementById('modal-kapat').addEventListener('click', kapat);
 document.getElementById('modal-overlay').addEventListener('click', e => { if (e.target === e.currentTarget) kapat(); });
 document.addEventListener('keydown', e => { if (e.key === 'Escape') kapat(); });
 function kapat() { document.getElementById('modal-overlay').classList.remove('open'); document.body.style.overflow = ''; }
-
-// Sayac animasyonu
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(e => {
-    if (e.isIntersecting) {
-      let v = 0; const hedef = 9; const timer = setInterval(() => {
-        v += 0.15; if (v >= hedef) { document.getElementById('stat-yil').textContent = hedef + '+'; clearInterval(timer); return; }
-        document.getElementById('stat-yil').textContent = Math.floor(v) + '+';
-      }, 16);
-      observer.disconnect();
-    }
-  });
-});
-observer.observe(document.querySelector('.hero-wrapper'));
 
 yukle();
 </script>
