@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "baslik": "MTBF ve MTTR ile Bakim Performansi Nasil Olculur?",
+    "baslik_en": "How to Measure Maintenance Performance with MTBF and MTTR?",
+    "ozet": "Ortalama arizalar arasi sure (MTBF) ve ortalama onarim suresi (MTTR) metriklerinin hesaplanmasi, yorumlanmasi ve bakim stratejisine entegrasyonu.",
+    "ozet_en": "Calculation, interpretation, and integration of Mean Time Between Failures (MTBF) and Mean Time To Repair (MTTR) metrics into maintenance strategy.",
+    "etiketler": ["MTBF", "MTTR", "KPI"],
+    "tarih": "2024-03-15",
+    "goruntulenme_baslangic": 743,
+    "icerik": "Makale iceriginizi buraya yazin.\n\nIkinci paragraf ornegi.",
+    "icerik_en": "Write your article content here.\n\nSecond paragraph example."
+  },
+  {
+    "id": 2,
+    "baslik": "Kestirimci Bakimda Yapay Zeka: Sensor Verisinden Ariza Tahminine",
+    "baslik_en": "AI in Predictive Maintenance: From Sensor Data to Failure Prediction",
+    "ozet": "Titresim, sicaklik ve akim sensorlerinden toplanan verilerin makine ogrenmesi algoritmalariyla islenerek ariza oncesi erken uyari sistemleri olusturulmasi.",
+    "ozet_en": "Processing vibration, temperature, and current sensor data with machine learning algorithms to build early warning systems before failures occur.",
+    "etiketler": ["Predictive Maintenance", "AI", "Sensor"],
+    "tarih": "2024-06-01",
+    "goruntulenme_baslangic": 812,
+    "icerik": "Makale iceriginizi buraya ekleyin.",
+    "icerik_en": "Add your article content here."
+  },
+  {
+    "id": 3,
+    "baslik": "TPM Nedir? Toplam Uretken Bakimin 8 Piliri",
+    "baslik_en": "What is TPM? The 8 Pillars of Total Productive Maintenance",
+    "ozet": "Total Productive Maintenance felsefesinin temel bilesenleri, OEE hesabi ve sifir ariza hedefine ulasmak icin uygulama adimlari.",
+    "ozet_en": "Core components of Total Productive Maintenance philosophy, OEE calculation, and implementation steps for achieving zero breakdown targets.",
+    "etiketler": ["TPM", "OEE", "Zero BD"],
+    "tarih": "2024-09-20",
+    "goruntulenme_baslangic": 778,
+    "icerik": "Makale iceriginizi buraya ekleyin.",
+    "icerik_en": "Add your article content here."
+  }
+]

@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="tr" data-lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mehmet Sadik Kiris | Mechanical Maintenance Expert</title>
+  <meta name="description" content="Mechanical maintenance management, reliability engineering, predictive maintenance, TPM, WCM. 9+ years industrial experience." />
+  <meta name="keywords" content="mechanical maintenance engineer, predictive maintenance, MTBF, MTTR, TPM, WCM, RCM, RCA, CMMS, reliability engineering, zero breakdown, 5S, Kaizen, EHS, Power BI" />
+  <meta name="author" content="Mehmet Sadik Kiris" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Mehmet Sadik Kiris",
+    "jobTitle": "Mechanical Maintenance and Auxiliary Facilities Manager",
+    "email": "mehmet.s.kiris@gmail.com",
+    "telephone": "+90 506 791 54 25",
+    "address": { "@type": "PostalAddress", "addressLocality": "Tarsus", "addressRegion": "Mersin", "addressCountry": "TR" },
+    "worksFor": { "@type": "Organization", "name": "IZOCAM Glass Wool Factory" },
+    "knowsAbout": ["Mechanical Maintenance","Predictive Maintenance","TPM","WCM","RCA","MTBF","MTTR","Zero BD","5S","Kaizen","EHS","Power BI","Reliability Engineering"]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --bg:        #f7f6f2;
+      --bg2:       #ffffff;
+      --surface:   #ffffff;
+      --border:    #e2ddd6;
+      --border2:   #d0cac0;
+      --navy:      #1a2744;
+      --navy2:     #243156;
+      --gold:      #c8972a;
+      --gold2:     #e8b84b;
+      --text:      #1a1a2e;
+      --muted:     #6b6b80;
+      --light:     #9898a8;
+      --radius:    12px;
+      --shadow:    0 2px 16px rgba(26,39,68,0.08);
+      --shadow-lg: 0 8px 40px rgba(26,39,68,0.13);
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+
+    /* NAV */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(247,246,242,0.96); backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 3rem;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 62px;
+    }
+    .nav-logo { font-family: 'Playfair Display', serif; font-size: 1.05rem; font-weight: 700; color: var(--navy); }
+    .nav-logo span { color: var(--gold); }
+    .nav-right { display: flex; align-items: center; gap: 2.5rem; }
+    .nav-links { display: flex; gap: 2rem; }
+    .nav-links a {
+      color: var(--muted); text-decoration: none; font-size: 0.85rem; font-weight: 500;
+      transition: color 0.2s; position: relative; padding-bottom: 2px;
+    }
+    .nav-links a::after { content:''; position:absolute; bottom:0; left:0; width:0; height:2px; background: var(--gold); transition: width 0.2s; }
+    .nav-links a:hover { color: var(--navy); }
+    .nav-links a:hover::after { width: 100%; }
+
+    .lang-toggle { display: flex; background: var(--border); border-radius: 20px; padding: 3px; gap: 2px; }
+    .lang-btn {
+      padding: 0.25rem 0.7rem; border-radius: 16px; border: none;
+      font-size: 0.75rem; font-weight: 700; cursor: pointer;
+      background: transparent; color: var(--muted); transition: all 0.2s; letter-spacing: 0.05em;
+    }
+    .lang-btn.active { background: var(--navy); color: #fff; }
+
+    /* HERO */
+    .hero-wrapper { background: var(--navy); position: relative; overflow: hidden; }
+    .hero-wrapper::before {
+      content:''; position:absolute; inset:0;
+      background: radial-gradient(ellipse at 70% 50%, rgba(200,151,42,0.12) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    .hero {
+      max-width: 960px; margin: 0 auto;
+      padding: 5.5rem 3rem 5rem;
+      display: grid; grid-template-columns: 1fr 300px; gap: 4rem; align-items: center;
+    }
+    .hero-eyebrow { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.22em; color: var(--gold); text-transform: uppercase; margin-bottom: 1.2rem; }
+    .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(2.2rem, 4.5vw, 3.4rem); font-weight: 800; line-height: 1.1; color: #ffffff; margin-bottom: 0.4rem; }
+    .hero h1 .name-sub { display: block; font-size: 0.6em; font-weight: 700; color: var(--gold2); font-family: 'Inter', sans-serif; letter-spacing: 0.03em; margin-top: 0.5rem; }
+    .hero-desc { font-size: 0.95rem; color: rgba(255,255,255,0.65); max-width: 480px; margin: 1.4rem 0 2rem; line-height: 1.75; }
+    .hero-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 2rem; }
+    .hero-tag { font-size: 0.7rem; font-weight: 600; padding: 0.25rem 0.65rem; border: 1px solid rgba(255,255,255,0.15); border-radius: 20px; color: rgba(255,255,255,0.55); }
+    .hero-links { display: flex; gap: 0.8rem; flex-wrap: wrap; }
+    .btn { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.6rem 1.3rem; border-radius: 8px; font-size: 0.82rem; font-weight: 600; text-decoration: none; transition: all 0.2s; cursor: pointer; border: none; }
+    .btn-gold { background: var(--gold); color: #fff; }
+    .btn-gold:hover { background: var(--gold2); transform: translateY(-1px); box-shadow: 0 4px 16px rgba(200,151,42,0.4); }
+    .btn-ghost { background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2); color: rgba(255,255,255,0.7); }
+    .btn-ghost:hover { background: rgba(255,255,255,0.15); color: #fff; }
+
+    .hero-stats-col { display: flex; flex-direction: column; gap: 1rem; }
+    .stat-card { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius); padding: 1.4rem 1.6rem; position: relative; overflow: hidden; }
+    .stat-card::before { content:''; position:absolute; left:0; top:0; bottom:0; width:3px; background: var(--gold); }
+    .stat-val { font-family: 'Playfair Display', serif; font-size: 2.2rem; font-weight: 800; color: var(--gold2); line-height: 1; }
+    .stat-lbl { font-size: 0.75rem; color: rgba(255,255,255,0.5); margin-top: 0.3rem; line-height: 1.4; }
+
+    /* MAIN */
+    .main { max-width: 960px; margin: 0 auto; padding: 4rem 3rem; }
+    .section-label { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); margin-bottom: 2rem; display: flex; align-items: center; gap: 1rem; }
+    .section-label::after { content:''; flex:1; height:1px; background: var(--border2); }
+
+    /* MAKALE GRID */
+    #makale-listesi { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.2rem; }
+
+    .makale-kart {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 1.6rem;
+      cursor: pointer; transition: all 0.25s;
+      box-shadow: var(--shadow);
+      display: flex; flex-direction: column; justify-content: space-between;
+    }
+    .makale-kart:hover { border-color: var(--gold); box-shadow: var(--shadow-lg); transform: translateY(-3px); }
+
+    .makale-meta { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.9rem; flex-wrap: wrap; }
+    .makale-tarih { font-size: 0.7rem; color: var(--light); }
+    .makale-etiket { font-size: 0.65rem; font-weight: 700; padding: 0.15rem 0.5rem; background: rgba(200,151,42,0.1); color: var(--gold); border-radius: 4px; border: 1px solid rgba(200,151,42,0.2); text-transform: uppercase; letter-spacing: 0.05em; }
+    .makale-baslik { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 700; margin-bottom: 0.6rem; color: var(--navy); line-height: 1.35; }
+    .makale-ozet { font-size: 0.82rem; color: var(--muted); line-height: 1.6; flex: 1; }
+
+    .makale-footer { margin-top: 1.2rem; padding-top: 1rem; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
+    .makale-read { font-size: 0.75rem; font-weight: 700; color: var(--gold); letter-spacing: 0.05em; text-transform: uppercase; }
+
+    /* GORUNTULENME BADGE */
+    .view-badge {
+      display: flex; align-items: center; gap: 0.3rem;
+      font-size: 0.72rem; color: var(--light); font-weight: 500;
+    }
+    .view-badge svg { width: 13px; height: 13px; opacity: 0.6; }
+    .view-count { font-weight: 700; color: var(--muted); }
+
+    /* MODAL */
+    .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(26,39,68,0.6); backdrop-filter: blur(4px); z-index: 200; align-items: center; justify-content: center; padding: 1rem; }
+    .modal-overlay.open { display: flex; }
+    .modal { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; max-width: 740px; width: 100%; max-height: 88vh; overflow-y: auto; padding: 3rem; position: relative; box-shadow: var(--shadow-lg); }
+    .modal-close { position: absolute; top: 1.4rem; right: 1.6rem; background: var(--bg); border: 1px solid var(--border); color: var(--muted); font-size: 1rem; cursor: pointer; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.2s; }
+    .modal-close:hover { background: var(--navy); color: #fff; border-color: var(--navy); }
+    .modal-eyebrow { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.18em; color: var(--gold); text-transform: uppercase; margin-bottom: 0.6rem; }
+    .modal-baslik { font-family: 'Playfair Display', serif; font-size: 1.6rem; font-weight: 800; margin-bottom: 0.5rem; line-height: 1.25; color: var(--navy); }
+    .modal-meta { display: flex; align-items: center; gap: 1.2rem; font-size: 0.76rem; color: var(--light); margin-bottom: 1.8rem; padding-bottom: 1.4rem; border-bottom: 1px solid var(--border); }
+    .modal-view { display: flex; align-items: center; gap: 0.3rem; font-weight: 600; }
+    .modal-icerik { font-size: 0.93rem; line-height: 1.9; color: var(--muted); white-space: pre-wrap; }
+    .modal-etiketler { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 2rem; padding-top: 1.4rem; border-top: 1px solid var(--border); }
+
+    /* FOOTER */
+    footer { background: var(--navy); padding: 3rem; text-align: center; }
+    .footer-name { font-family: 'Playfair Display', serif; font-size: 1.3rem; font-weight: 700; color: #fff; margin-bottom: 0.4rem; }
+    .footer-title { font-size: 0.8rem; color: rgba(255,255,255,0.4); margin-bottom: 1.5rem; letter-spacing: 0.05em; }
+    .footer-links { display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
+    .footer-links a { color: rgba(255,255,255,0.5); text-decoration: none; font-size: 0.82rem; font-weight: 500; transition: color 0.2s; }
+    .footer-links a:hover { color: var(--gold2); }
+    .footer-copy { font-size: 0.72rem; color: rgba(255,255,255,0.25); }
+
+    .loading { text-align: center; padding: 3rem; color: var(--light); font-size: 0.85rem; }
+
+    @media (max-width: 720px) {
+      nav { padding: 0 1.2rem; }
+      .nav-links { gap: 1.2rem; }
+      .hero { grid-template-columns: 1fr; padding: 3.5rem 1.5rem 3rem; gap: 2.5rem; }
+      .hero-stats-col { flex-direction: row; flex-wrap: wrap; }
+      .stat-card { flex: 1; min-width: 130px; }
+      .main { padding: 2.5rem 1.5rem; }
+      #makale-listesi { grid-template-columns: 1fr; }
+      .modal { padding: 1.8rem; }
+      footer { padding: 2rem 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo">Mehmet Sadik <span>Kiris</span></div>
+  <div class="nav-right">
+    <div class="nav-links">
+      <a href="#hakkimda" data-tr="Hakkimda" data-en="About">Hakkimda</a>
+      <a href="#makaleler" data-tr="Makaleler" data-en="Articles">Makaleler</a>
+      <a href="#iletisim" data-tr="Iletisim" data-en="Contact">Iletisim</a>
+    </div>
+    <div class="lang-toggle">
+      <button class="lang-btn active" onclick="setLang('tr')">TR</button>
+      <button class="lang-btn" onclick="setLang('en')">EN</button>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero-wrapper" id="hakkimda">
+  <div class="hero">
+    <div>
+      <div class="hero-eyebrow" data-tr="Mekanik Bakim & Guvenilirlik Muhendisligi" data-en="Mechanical Maintenance & Reliability Engineering">Mekanik Bakim & Guvenilirlik Muhendisligi</div>
+      <h1>
+        Mehmet Sadik Kiris
+        <span class="name-sub" data-tr="Mekanik Bakim ve Yardimci Isletmeler Yetkilisi" data-en="Mechanical Maintenance & Auxiliary Facilities Manager">Mekanik Bakim ve Yardimci Isletmeler Yetkilisi</span>
+      </h1>
+      <p class="hero-desc" data-tr="Endustriyel tesislerde bakim yonetimi, guvenilirlik muhendisligi ve dijital donusum alanlarinda 9 yili askin deneyim. IZOCAM Cam Yunu Fabrikasi'nda TPM, WCM ve kestirimci bakim stratejilerini yurutuyor, teknik bilgi birikimini makaleler araciligiyla paylasiyor." data-en="Over 9 years of experience in maintenance management, reliability engineering, and digital transformation in industrial facilities. Driving TPM, WCM, and predictive maintenance strategies at IZOCAM Glass Wool Factory.">
+        Endustriyel tesislerde bakim yonetimi, guvenilirlik muhendisligi ve dijital donusum alanlarinda 9 yili askin deneyim.
+      </p>
+      <div class="hero-tags">
+        <span class="hero-tag">Predictive Maintenance</span>
+        <span class="hero-tag">TPM / WCM</span>
+        <span class="hero-tag">RCA</span>
+        <span class="hero-tag">Zero BD</span>
+        <span class="hero-tag">5S &amp; Kaizen</span>
+        <span class="hero-tag">EHS</span>
+        <span class="hero-tag">Power BI</span>
+        <span class="hero-tag">CMMS</span>
+        <span class="hero-tag">MTBF / MTTR</span>
+        <span class="hero-tag">Reliability Engineering</span>
+      </div>
+      <div class="hero-links" style="margin-top:1.8rem;">
+        <a href="https://linkedin.com/in/mehmetsadikkrs" target="_blank" class="btn btn-gold" data-tr="LinkedIn Profilim" data-en="LinkedIn Profile">LinkedIn Profilim</a>
+        <a href="mailto:mehmet.s.kiris@gmail.com" class="btn btn-ghost">mehmet.s.kiris@gmail.com</a>
+      </div>
+    </div>
+    <div class="hero-stats-col">
+      <div class="stat-card">
+        <div class="stat-val" id="stat-yil">0</div>
+        <div class="stat-lbl" data-tr="Yil Endustriyel Deneyim" data-en="Years Industrial Experience">Yil Endustriyel Deneyim</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">%7</div>
+        <div class="stat-lbl" data-tr="Arizasizlik Oraninda Artis" data-en="Reduction in Failure Rate">Arizasizlik Oraninda Artis</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">11K</div>
+        <div class="stat-lbl" data-tr="Puan Risk Azalmasi" data-en="Points Risk Score Reduction">Puan Risk Azalmasi</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MAKALELER -->
+<main class="main" id="makaleler">
+  <div class="section-label" data-tr="Teknik Makaleler" data-en="Technical Articles">Teknik Makaleler</div>
+  <div id="makale-listesi"><div class="loading">Yukleniyor...</div></div>
+</main>
+
+<!-- FOOTER -->
+<footer id="iletisim">
+  <div class="footer-name">Mehmet Sadik Kiris</div>
+  <div class="footer-title" data-tr="Mekanik Bakim ve Yardimci Isletmeler Yetkilisi · Tarsus, Mersin" data-en="Mechanical Maintenance & Auxiliary Facilities Manager · Tarsus, Mersin">Mekanik Bakim ve Yardimci Isletmeler Yetkilisi · Tarsus, Mersin</div>
+  <div class="footer-links">
+    <a href="https://linkedin.com/in/mehmetsadikkrs" target="_blank">LinkedIn</a>
+    <a href="mailto:mehmet.s.kiris@gmail.com">mehmet.s.kiris@gmail.com</a>
+    <a href="tel:+905067915425">+90 506 791 54 25</a>
+  </div>
+  <div class="footer-copy">2025 Mehmet Sadik Kiris</div>
+</footer>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="modal-overlay">
+  <div class="modal">
+    <button class="modal-close" id="modal-kapat">x</button>
+    <div class="modal-eyebrow" data-tr="Teknik Makale" data-en="Technical Article">Teknik Makale</div>
+    <div class="modal-baslik" id="modal-baslik"></div>
+    <div class="modal-meta">
+      <span id="modal-tarih"></span>
+      <span class="modal-view">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+        <span id="modal-views"></span>
+      </span>
+    </div>
+    <div class="modal-icerik" id="modal-icerik"></div>
+    <div class="modal-etiketler" id="modal-etiketler"></div>
+  </div>
+</div>
+
+<script>
+// ── GORUNTULENME DEPOLAMA (Anthropic Storage API) ──
+// Her makale icin anahtar: "views:ID"
+// Deger: { count: sayi, lastDailyTick: "YYYY-MM-DD" }
+
+async function getViews(id) {
+  try {
+    const r = await window.storage.get('views:' + id);
+    return r ? JSON.parse(r.value) : null;
+  } catch(e) { return null; }
+}
+
+async function setViews(id, data) {
+  try { await window.storage.set('views:' + id, JSON.stringify(data)); } catch(e) {}
+}
+
+// Baslangic sayisini ilk kez yaz, sonra gunluk +1/+2 ekle
+async function hesaplaViews(makale) {
+  const bugun = new Date().toISOString().slice(0, 10);
+  let data = await getViews(makale.id);
+
+  if (!data) {
+    // Ilk ziyaret: baslangic sayisini depola
+    // Makale tarihinden bugune kac gun gecti? Her gun 1.3 ortalama ekle (dogal buyume)
+    const makTarih = new Date(makale.tarih);
+    const fark = Math.floor((Date.now() - makTarih) / 86400000);
+    const dogalArtis = Math.floor(fark * 1.3);
+    data = {
+      count: (makale.goruntulenme_baslangic || 700) + dogalArtis,
+      lastDailyTick: bugun
+    };
+    await setViews(makale.id, data);
+  } else if (data.lastDailyTick !== bugun) {
+    // Yeni gun: +1 veya +2 rastgele ekle
+    const sonTick = new Date(data.lastDailyTick);
+    const gecenGun = Math.floor((Date.now() - sonTick) / 86400000);
+    const artis = gecenGun * (Math.random() < 0.5 ? 1 : 2);
+    data.count += artis;
+    data.lastDailyTick = bugun;
+    await setViews(makale.id, data);
+  }
+
+  return data.count;
+}
+
+async function artirView(id) {
+  let data = await getViews(id);
+  if (data) {
+    data.count += 1;
+    await setViews(id, data);
+    return data.count;
+  }
+  return null;
+}
+
+// ── DIL ──
+let currentLang = 'tr';
+
+function setLang(lang) {
+  currentLang = lang;
+  document.documentElement.setAttribute('data-lang', lang);
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+  document.querySelector('.lang-btn[onclick="setLang(\'' + lang + '\')"]').classList.add('active');
+  document.querySelectorAll('[data-tr]').forEach(el => { el.textContent = el.getAttribute('data-' + lang); });
+  yukleKartlar();
+}
+
+// ── MAKALELER ──
+let tumMakaleler = [];
+let viewCache = {};
+
+async function yukle() {
+  try {
+    const res = await fetch('makaleler.json');
+    tumMakaleler = await res.json();
+    tumMakaleler.sort((a, b) => new Date(b.tarih) - new Date(a.tarih));
+
+    // Tum view sayilarini onceden hesapla
+    await Promise.all(tumMakaleler.map(async m => {
+      viewCache[m.id] = await hesaplaViews(m);
+    }));
+
+    yukleKartlar();
+  } catch(e) {
+    document.getElementById('makale-listesi').innerHTML =
+      '<div class="loading">makaleler.json bulunamadi.</div>';
+  }
+}
+
+function yukleKartlar() {
+  const liste = document.getElementById('makale-listesi');
+  liste.innerHTML = '';
+  tumMakaleler.forEach(m => {
+    const baslik = currentLang === 'en' && m.baslik_en ? m.baslik_en : m.baslik;
+    const ozet   = currentLang === 'en' && m.ozet_en   ? m.ozet_en   : m.ozet;
+    const icerik = currentLang === 'en' && m.icerik_en ? m.icerik_en : m.icerik;
+    const views  = viewCache[m.id] || m.goruntulenme_baslangic || 0;
+
+    const kart = document.createElement('div');
+    kart.className = 'makale-kart';
+    kart.innerHTML = `
+      <div>
+        <div class="makale-meta">
+          <span class="makale-tarih">${formatTarih(m.tarih)}</span>
+          ${m.etiketler.slice(0,2).map(e => `<span class="makale-etiket">${e}</span>`).join('')}
+        </div>
+        <div class="makale-baslik">${baslik}</div>
+        <div class="makale-ozet">${ozet}</div>
+      </div>
+      <div class="makale-footer">
+        <div class="view-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          <span class="view-count" id="vc-${m.id}">${formatSayi(views)}</span>
+        </div>
+        <span class="makale-read">${currentLang === 'en' ? 'Read' : 'Oku'} &rarr;</span>
+      </div>
+    `;
+    kart.addEventListener('click', () => modalAc(m, baslik, icerik));
+    liste.appendChild(kart);
+  });
+}
+
+async function modalAc(m, baslik, icerik) {
+  // Once modal ac, sonra view artir
+  document.getElementById('modal-baslik').textContent = baslik;
+  document.getElementById('modal-tarih').textContent  = formatTarih(m.tarih);
+  document.getElementById('modal-icerik').textContent = icerik;
+  document.getElementById('modal-etiketler').innerHTML = m.etiketler.map(e => `<span class="makale-etiket">${e}</span>`).join('');
+  document.getElementById('modal-views').textContent  = formatSayi(viewCache[m.id] || 0) + ' ' + (currentLang === 'en' ? 'views' : 'goruntulenme');
+  document.getElementById('modal-overlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+
+  // View artir
+  const yeni = await artirView(m.id);
+  if (yeni) {
+    viewCache[m.id] = yeni;
+    const vc = document.getElementById('vc-' + m.id);
+    if (vc) vc.textContent = formatSayi(yeni);
+    document.getElementById('modal-views').textContent = formatSayi(yeni) + ' ' + (currentLang === 'en' ? 'views' : 'goruntulenme');
+  }
+}
+
+function formatSayi(n) {
+  if (n >= 1000) return (n / 1000).toFixed(1).replace('.0','') + 'k';
+  return n.toString();
+}
+
+function formatTarih(str) {
+  const d = new Date(str);
+  if (currentLang === 'en') return d.toLocaleDateString('en-GB', { day:'numeric', month:'long', year:'numeric' });
+  return d.toLocaleDateString('tr-TR', { day:'numeric', month:'long', year:'numeric' });
+}
+
+document.getElementById('modal-kapat').addEventListener('click', kapat);
+document.getElementById('modal-overlay').addEventListener('click', e => { if (e.target === e.currentTarget) kapat(); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') kapat(); });
+function kapat() { document.getElementById('modal-overlay').classList.remove('open'); document.body.style.overflow = ''; }
+
+// Sayac animasyonu
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      let v = 0; const hedef = 9; const timer = setInterval(() => {
+        v += 0.15; if (v >= hedef) { document.getElementById('stat-yil').textContent = hedef + '+'; clearInterval(timer); return; }
+        document.getElementById('stat-yil').textContent = Math.floor(v) + '+';
+      }, 16);
+      observer.disconnect();
+    }
+  });
+});
+observer.observe(document.querySelector('.hero-wrapper'));
+
+yukle();
+</script>
+</body>
+</html>
